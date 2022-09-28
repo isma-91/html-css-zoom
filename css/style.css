@@ -41,7 +41,8 @@ main {
 
 .card {
   position: relative;
-  width: calc(100% / 7 - 10 * 6);
+  /* max-width: 350px; */
+  width: calc(100% / 7 - 5px * 6);
   flex: 1 1 auto;
 }
 
@@ -84,6 +85,8 @@ footer {
   text-align: center;
 }
 
+.card,
+.top-btn,
 .opt:hover {
   cursor: pointer;
 }
@@ -95,7 +98,7 @@ footer {
 }
 
 .share {
-  color: lightgreen;
+  color: rgb(0, 194, 0);
 }
 
 .leave {
