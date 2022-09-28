@@ -14,7 +14,6 @@ header {
   color: white;
   padding: 15px;
   height: 60px;
-  background-color: red;
 }
 
 /* .view::before {
@@ -54,14 +53,14 @@ main {
   color: white;
   position: absolute;
   padding: 5px;
-  top: 180px;
+  bottom: 10px;
   background-color: rgba(142, 142, 142, 0.5);
 }
 
 footer {
   height: 100px;
   color: white;
-  background-color: blue;
+  background-color: #222222;
 }
 
 .icon {
@@ -85,8 +84,25 @@ footer {
   text-align: center;
 }
 
+.opt:hover {
+  cursor: pointer;
+}
+
 .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.share {
+  color: lightgreen;
+}
+
+.leave {
+  background-color: #4a4a4a;
+  color: red;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
