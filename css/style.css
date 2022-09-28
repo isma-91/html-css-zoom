@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+/* .view::before {
+  content: "\e195";
+  display: block;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+} */
+
+.top-btn {
+  background-color: #4a4a4a;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 7px;
+}
