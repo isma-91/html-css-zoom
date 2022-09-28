@@ -32,10 +32,12 @@ header {
 }
 
 main {
+  height: calc(100vh - 60px - 100px);
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px 5px;
   padding: 30px 80px;
+  overflow-y: auto;
 }
 
 .card {
@@ -52,6 +54,39 @@ main {
   color: white;
   position: absolute;
   padding: 5px;
-  bottom: 10px;
+  top: 180px;
   background-color: rgba(142, 142, 142, 0.5);
+}
+
+footer {
+  height: 100px;
+  color: white;
+  background-color: blue;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+}
+
+.opt {
+  padding: 10px;
+  text-align: center;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
