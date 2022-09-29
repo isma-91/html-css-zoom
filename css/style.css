@@ -41,7 +41,7 @@ main {
 
 .card {
   position: relative;
-  /* max-width: 350px; */
+  min-width: 300px;
   width: calc(100% / 7 - 5px * 6);
   flex: 1 1 auto;
 }
